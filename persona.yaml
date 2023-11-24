@@ -1,0 +1,27 @@
+apiVersion: compute.genesis.xyz.com/v2
+kind: Persona
+metadata:
+  name: test1
+spec:
+  name: Michael Hudson
+  age: 23
+
+---
+
+apiVersion: compute.genesis.xyz.com/v2
+kind: Persona
+metadata:
+  name: test2
+spec:
+  name: Wilston Roy
+  age: 13
+
+---
+
+apiVersion: compute.genesis.xyz.com/v2
+kind: Persona
+metadata:
+  name: tecst3
+spec:
+  name: Lionel Messi
+  age: 10
